@@ -39,16 +39,15 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 711px 1fr;
   gap: 30px;
   padding: 133px 30px;
 }
 
 .result {
   display: grid;
+  gap: 16px;
   align-content: end;
-  width: 710px;
-  height: 535px;
 }
 
 .result__video-container {
@@ -56,8 +55,10 @@ ol {
 }
 
 .result__video {
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 711px;
+  height: 386px;
 }
 
 .search-form {
@@ -66,7 +67,6 @@ ol {
   justify-content: start;
   align-items: end;
   gap: 40px;
-  padding-top: 16px;
 }
 
 .search-form__fieldset {
@@ -206,6 +206,8 @@ text-transform: uppercase;
 width: 194px;
 height: 103px;
 margin-left: 5px;
+object-fit: cover;
+object-position: center;
 }
 
 .content__video-card-description-container {
