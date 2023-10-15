@@ -191,10 +191,11 @@ input[type="checkbox"]:checked + span,
 }
 
 .content__video-card-title {
-font-weight: 700;
-font-size: 30px;
-font-style: normal;
-text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .content__video-card{
